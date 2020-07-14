@@ -1,1 +1,4 @@
-import 'bulma/css/bulma.css';
+function Main() {
+    $(".sortie").html("Hello")
+}
+Main();

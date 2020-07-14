@@ -1,5 +1,6 @@
-<form class="form" action="page-entree.php">
 
+<?php get_header();?>
+<form class="form" action="page-entree.php">
   <div class="form div">
     <div class="tab-content div">
       <div id="signup">
@@ -14,7 +15,7 @@
             </div>
             <div class="field-wrap div">
               <label class="label" for="prenom">
-                Prénom<span class="req label">*</span>
+               Prénom<span class="req span">*</span>
               </label>
               <input name="prenom" class="input" type="text" required autocomplete="off" />
             </div>
@@ -38,3 +39,4 @@
     </div>
   </div>
 </form>
+<?php get_footer();?>

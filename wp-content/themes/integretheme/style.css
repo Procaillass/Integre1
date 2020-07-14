@@ -1,39 +1,72 @@
 /*
-Template Name: Integre theme
-Text Domain: Integre theme
-Author: Joseph Prygiel
+Template Name: mon thème
+Text Domain: mytheme
+Author: Pierre
 Version: 0.0.1
 Licence: GNU General Public License v2 or later
 Author URI: http://www.cepegra.be
-Theme URI: http://www.cepegra.be/integretheme
+Theme URI: http://www.cepegra.be/mytheme
 Requires at least: 5.2
 Description: Ce thème est en licence GPL
 Tags: twoo-columns, Bulma, custom-logo
 */
 
-* {
-    font-size: .9rem;
-}
-
 body {
-    
-    width: 60%;
-    max-width: 600px;
-    margin: auto;
-    background-color: rgba(50, 50, 59, 0.109);
-    padding: 1rem;
+    color: rgb(29, 28, 28);
+}
+.contenu {
+    display:flex;
+}
+main {
+    min-width: 80%;
 }
 
-h1 {
-    font-size: 2em;
-    text-transform: uppercase;
-    text-align: center;
+nav li ul {
+    display: none;
+}
+nav li:hover ul {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+.searchForm {
+    /*display: flex;*/
+    width: 30rem;
+}
+
+/*listing d'archive */
+ul.list-group {
+    padding: 0;
+    margin: 0;
+}
+.list-group-item {
+    list-style: none;
+}
+
+
+
+.read-more {
+    text-align: right;
+}
+input[type="search"] {
+    max-width: 13rem;
+}
+.sidebars-footer {
+    display: flex;
+    flex: 1;
+    margin: auto;
+}
+.sidebar-footer {
+    width: 50%;
 }
 
 nav ul {
-
-    display: flex;
+    display: flex; 
     justify-content: space-between;
-    margin: 1em 0;
+}
 
+
+nav ul li {
+    list-style: none;
 }
