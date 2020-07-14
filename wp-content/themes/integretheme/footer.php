@@ -1,5 +1,5 @@
 <footer class="footer">
-    <h2 class="h2">Je suis le h1 dans le footer</h2>
+    <h1 class="h1">FOOTER</h1>
 </footer>
 </body>
 
