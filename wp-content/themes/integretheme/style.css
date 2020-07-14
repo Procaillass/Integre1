@@ -29,3 +29,11 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
+
+nav ul {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+
+}
