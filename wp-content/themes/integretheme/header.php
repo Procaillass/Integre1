@@ -30,9 +30,7 @@
 				wp_nav_menu($args);?>
 			</nav>
 
-			<div class="section">
-				<?php get_search_form();?>
-			</div>
+			
 			
 			
 		</header>
