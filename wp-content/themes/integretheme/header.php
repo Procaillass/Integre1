@@ -16,8 +16,7 @@
 		<header class="hero is-secondary">
 			<div class="hero-body">
                 <h1 class="title"><?php bloginfo('name');?></h1>
-               
-			</div>
+            </div>
 			<nav class="nav">
 				<?php
 				// afficher menu principal 
